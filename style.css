@@ -2,3 +2,19 @@ body{
     color: rgb(0, 0, 0);
     background: aliceblue;
 }
+
+button{
+
+width: 147px;
+height: 40px;
+left: 557px;
+top: 689px;
+border-style: none;
+
+/* base-blue */
+color: #ffffff;
+background: #007AFF;
+border-radius: 4px;
+cursor: pointer;
+
+}
