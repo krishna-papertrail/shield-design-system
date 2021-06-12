@@ -1,4 +1,4 @@
-/* Color vars */
+
 
 :root{
 
@@ -41,15 +41,6 @@
   --font-size-m : 14px;
   --font-size-l : 16px;
   --font-size-xl : 22x;
-
-
-
-
-
-
-
-
-
 }
 
    
@@ -62,9 +53,7 @@
     font-family: 'Inter', sans-serif;
 }
 
-p{
 
-}
 
 
 h1,body{
@@ -110,6 +99,10 @@ img{
    
 }
 
+.child1:hover{
+    background: var(--color-primary-500);
+
+}
 
 .child2{
     background: #717DBA;
