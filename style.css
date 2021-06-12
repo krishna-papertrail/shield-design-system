@@ -1,10 +1,81 @@
+/* Color vars */
+
+:root{
+
+ /* COLOR - BLUE */
+ --color-primary-100 : #E5F2FF;
+ --color-primary-200 : #99CAFF; 
+ --color-primary-300 : #66AFFF;
+ --color-primary-400 : #007AFF;
+ --color-primary-500 : #0863C6;
+ --color-primary-600 : #004A97;
+ --color-primary-700 : #002649;
+        
+ /* COLOR - NEUTRAL  */
+ --color-neutral-100 : #E9EBEE;
+ --color-neutral-200 : #A6AFBB; 
+ --color-neutral-300 : #7A8898;
+ --color-neutral-400 : #213854;
+ --color-neutral-500 : #072448;
+ --color-neutral-600 : #051932;
+ --color-neutral-700 : #030E1D;
+
+ /* COLOR - RED */
+ --color-red-100 : #FDEBEC;
+ --color-red-200 : #F7AFB5; 
+ --color-red-300 : #F3878F;
+ --color-red-400 : #EB3745;
+ --color-red-500 : #D41927;
+ --color-red-600 : #B10F1B;
+ --color-red-700 : #8B1019;
+
+  /* TEXT COLORS */
+  --color-text-title : var(var(--color-neutral-700));
+  --color-text-primary: var(--color-neutral-500);
+  --color-text-body: var(--color-neutral-400);
+  --color-text-disabled : var(--color-neutral-200);
+
+  /* FONT WEIGHTS */
+  --font-size-xs : 10px;
+  --font-size-s : 12px;
+  --font-size-m : 14px;
+  --font-size-l : 16px;
+  --font-size-xl : 22x;
+
+
+
+
+
+
+
+
+
+}
+
+   
+
+/* Color vars */
+
+
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+p{
+
+}
 
 
 h1,body{
     font-family: 'Inter', sans-serif;
-    background: #007AFF;
-    color: #ffffff;
+ 
+    color: var(--color-text-title);
 
+}
+p{
+   
+    color: var(--color-text-title);
 }
 
 body{
@@ -13,36 +84,75 @@ body{
 }
 
 button{
-
 width: 147px;
 height: 40px;
 left: 557px;
 top: 689px;
 border-style: none;
 
+
 /* base-blue */
 color: #ffffff;
 background: #007AFF;
-border-radius: 8px;
+border-radius: 4px;
 cursor: pointer;
 }
 
-
-button1{
-    width: 87px;
-height: 20px;
-left: 24px;
-top: 10px;
-
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 20px;
+img{
+    width: 72px;
+    height: 72px;
 }
 
-div 
-{
-padding: 16px;
-display: flex;
+
+.child1{
+    background: --color-primary;
+    font-weight: 600;
+   
 }
+
+
+.child2{
+    background: #717DBA;
+    font-weight: 600;
+    color: var --color-text-primary ;
+
+}
+.child3{
+    background: #F4A165;
+    font-weight: 600;
+    
+}
+
+.child4{
+    background: #109098;
+    font-weight: 600;
+
+}
+
+.child5{
+    background: #609CE2;
+    font-weight: 600;
+}
+
+
+#tt{
+    color: var(--color-text-title);
+
+}
+
+
+#tp{
+    color: var(--color-text-primary);
+
+}
+
+#tb{
+    color: var(--color-text-body);
+
+}
+
+#td{
+    color: var(--color-text-disabled);
+
+}
+
