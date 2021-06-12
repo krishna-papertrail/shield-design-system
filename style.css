@@ -94,7 +94,7 @@ img{
 
 
 .child1{
-    background: --color-primary;
+    background: var(--color-primary-400);
     font-weight: 600;
    
 }
