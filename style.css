@@ -73,12 +73,11 @@ body{
 }
 
 button{
-width: 147px;
-height: 40px;
-left: 557px;
-top: 689px;
-border-style: none;
 
+
+border-style: none;
+overflow: hidden;
+align-items: center;
 
 /* base-blue */
 color: #ffffff;
@@ -93,9 +92,18 @@ img{
 }
 
 
+a{
+    color: white;
+    text-decoration: none;
+
+
+}
+
 .child1{
+   
     background: var(--color-primary-400);
     font-weight: 600;
+
    
 }
 
@@ -149,3 +157,40 @@ img{
 
 }
 
+
+/* BUTTON STYLES */
+
+
+.btn-primary
+{
+
+    display: inline-flex;
+border-radius: 4px;
+
+
+font-family: 'Inter', sans-serif;
+font-weight: normal;
+font-size: var(--font-size-m);
+line-height: 20px;
+
+}
+
+
+
+.button__text{
+    padding: 10px 24px 10px 24px;
+background: var(--color-primary-400);
+color: white;
+border-radius: 4px;
+
+
+}
+
+
+.button__icon{
+
+display: inline-flex;
+align-items:center;
+padding: 0 10px;
+height: 100%;
+}
