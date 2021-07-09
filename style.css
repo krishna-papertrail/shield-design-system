@@ -29,32 +29,47 @@
  --color-red-600 : #B10F1B;
  --color-red-700 : #8B1019;
 
+ /* COLOR - YELLOW */
+ --color-yellow-50 : #FEF1D9;
+ --color-yellow-100 : #FDE4B3;
+ --color-yellow-200 : #FCDB9A; 
+ --color-yellow-300 : #F9C04F;
+ --color-yellow-400 : #F7A503;
+ --color-yellow-500 : #AD7302;
+ --color-yellow-600 : #634201;
+
+ /* COLOR - GREEN */
+ --color-green-100 : #E7F5F0;
+ --color-green-200 : #9DD6C3; 
+ --color-green-300 : #54B897;
+ --color-green-400 : #0B996A;
+ --color-green-500 : #086B4A;
+ --color-green-600 : #043D2A;
+ --color-green-700 : #010F0B;
+
   /* TEXT COLORS */
   --color-text-title : var(var(--color-neutral-700));
   --color-text-primary: var(--color-neutral-500);
   --color-text-body: var(--color-neutral-400);
   --color-text-disabled : var(--color-neutral-200);
 
-  /* FONT WEIGHTS */
+  /* FONT SIZES */
   --font-size-xs : 10px;
   --font-size-s : 12px;
-  --font-size-m : 14px;
-  --font-size-l : 16px;
+  --font-size-xm : 14px;
+  --font-size-m : 16px;
+  --font-size-l : 18px;
   --font-size-xl : 22px;
+  --font-size-heading1 : 32px;
+  --font-size-heading2 : 24px;
 }
 
    
-
-/* Color vars */
-
 
 
 *{
     font-family: 'Inter', sans-serif;
 }
-
-
-
 
 h1,body{
     font-family: 'Inter', sans-serif;
@@ -67,10 +82,14 @@ p{
     color: var(--color-text-title);
 }
 
-body{
-    color: rgb(0, 0, 0);
-    background: aliceblue;
+
+.container{
+    padding: 32px 32px;
+    align-items: center;
+
 }
+
+
 
 button{
 
@@ -177,6 +196,7 @@ margin-bottom: 24px;
 
 .btn-secondary
 {
+
 background-color: white;
 color: #7A8898;
 display: inline-flex;
@@ -187,7 +207,7 @@ font-weight: normal;
 font-size: var(--font-size-m);
 line-height: 20px;
 margin-bottom: 24px;
-padding: 10px 18px 10px 18px ;
+padding: 10px 18px 10px 18px;
 
 }
 
@@ -197,7 +217,24 @@ padding: 10px 18px 10px 18px ;
 
 
 
+.btn-delete
 
+{
+background-color: var(--color-red-100);
+color:var(--color-red-400);
+font-size: var(--font-size-m);
+border-radius: 4px;
+padding: 10px 12px 10px 8px;
+
+}
+
+.delete__icon{
+    color: var(--color-red-100);
+
+
+
+
+}
 
 
 
