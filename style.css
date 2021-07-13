@@ -92,8 +92,6 @@ p{
 
 
 button{
-
-
 border-style: none;
 overflow: hidden;
 align-items: center;
@@ -239,7 +237,7 @@ padding: 10px 12px 10px 8px;
 
 
 .button__text{
-    padding: 10px 0px 10px 24px;
+padding: 10px;
 background: var(--color-primary-400);
 color: white;
 border-radius: 4px;
@@ -248,11 +246,20 @@ border-radius: 4px;
 }
 
 
+
+.button__text-1{
+    padding: 10px;
+    background: var(--color-primary-400);
+    color: white;
+    border-radius: 4px;
+     }
+
+
 .button__icon{
 
 display: inline-flex;
 align-items:center;
-padding: 0 10px;
+padding:10px 10px 10px 0px;
 height: 100%;
 }
 
